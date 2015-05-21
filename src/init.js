@@ -33,8 +33,13 @@ $(document).ready(function(){
 
   // $('.generateBackgroundButton').on('click', function(event){
 
-  //   // call function that generates random background
-  //   $('body').css({background-image: someVarName})
+  // });
+
+  // Line 'em up
+  // $('#lineUp').on("click", function(event){
+  //   for (var i = 0; i < dancers.length; i++){
+  //     dancers[i].$node.css({left: 0});
+  //   }
   // });
 
 });
