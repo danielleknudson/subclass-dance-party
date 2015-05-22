@@ -3,16 +3,11 @@ body, html{
 }
 body{
   margin: 0px;
+  background-color:#444;
   font-size: 18px;
-  background-image: url('backgrounds/boxingRing.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
-}
-a:hover{
-  color: white;
 }
 .title, .addDancerButton{
   padding:5px 12px;
@@ -27,27 +22,6 @@ a:hover{
 }
 .dancer{
   border:10px solid red;
-  border-radius:10px;
-  position:absolute;
-}
-
-.blinky-dancer {
-  border:10px solid blue;
-  border-radius:10px;
-  position:absolute;
-}
-.ninja-turtle-dancer {
- border:10px solid green;
-  border-radius:10px;
-  position:absolute;
-}
-.amy-schumer-dancer {
-  border:10px solid red;
-  border-radius:10px;
-  position:absolute;
-}
-.hulk-hogan-dancer {
-  border:10px solid orange;
   border-radius:10px;
   position:absolute;
 }
